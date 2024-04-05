@@ -26,7 +26,7 @@ class CrispChatSdkModule(reactContext: ReactApplicationContext) : ReactContextBa
     @ReactMethod
     fun setTokenId(id: String){
         try {
-          Crisp.setTokenID(reactApplicationContext, id)
+          Crisp.setTokenID( id)
         } catch(error : Exception) { }
     }
 
